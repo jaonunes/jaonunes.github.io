@@ -10,7 +10,7 @@ $(document).ready(function() {
 	var $target = $('.anime'),
 			animationClass = 'anime-init',
 			windowHeight = $(window).height(),
-			offset = windowHeight - (windowHeight / 6);
+			offset = windowHeight - (windowHeight /10);
 
 	function animeScroll() {
 		var documentTop = $(document).scrollTop();
