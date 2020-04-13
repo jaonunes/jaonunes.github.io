@@ -2,6 +2,8 @@
 html, body{
     height: 100%;
     font-family: 'Mukta', sans-serif;
+    background: #1C1C1C;
+    color: rgba(146, 145, 145, 0.815);
 }
 header{
 
@@ -30,7 +32,6 @@ footer{
 }
 .banner-dentro{
     color: #ffffff;
-    
     padding: 20px;
     width: 100%;
     border-radius: 8px;
@@ -58,7 +59,7 @@ footer{
 
 /* Primeira section*/
 .avatar_imagem{
-    box-shadow: rgba(0, 0, 0, 0.75) 3px 3px 15px 0px;
+    box-shadow: rgba(0, 0, 0, 0.507) 3px 3px 15px 0px;
     max-width: 200px;
     border-radius: 100px;
     margin: 0 auto 24px;
@@ -74,7 +75,7 @@ footer{
     margin: 10px;
 }
 .ul-social-media li a{
-    color: #48484A;
+    color: rgb(255, 255, 255);
 }
 .div_main{
     display: flex;
@@ -105,8 +106,8 @@ footer{
         
     }
     main{
-        background-color: rgba(255, 255, 255, 0.856);
-        box-shadow: 5px 5px 5px 5px;
+        background-color: rgba(39, 39, 39, 0.856);
+        box-shadow: 5px 5px 3px 3px rgb(0, 0, 0);
         padding: 15px;
         margin-top: 15px;
     }
