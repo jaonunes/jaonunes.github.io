@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>  
     <head>
-        <title>Hi Guys- I'm Jão</title>
+        <title>Hi I'm Jão</title>
         <meta charset="utf-8">
         <!-- Esse meta calcula altura e largura da pagina, serve para resposividade-->
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,6 +10,7 @@
         <link rel="stylesheet" type="text/css" href="bootstrap-3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/site.css">
         <link href="/css/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="/css/timeline.css">
         <script src="/js/jquery.js"></script>
         <script src="/js/animacoes.js"></script>
 
@@ -18,9 +19,9 @@
     <body>
             <header>
                 
-                <nav class="navbar navbar-default navbar-fixed-top">
+                <nav class="navbar navbar-default navbar-fixed-top" style="display: none;">
                     <div class="img-nav-header">
-                        <a href="https://github.com/jaonunes" target="newblack"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        <a href="https://github.com/jaonunes" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
                     </div>
                 </nav>
                 
@@ -32,37 +33,73 @@
             
             </header>
             <main class="container">
-                <section class="">
-                    <div class="container div_main anime"  id="div-sobre"> 
-                        <div class="avatar_social">
-                            <img src="/images/jao-perfil.png" class="avatar_imagem" alt="user avatar">
-                            <ul class="ul-social-media">
-                                <li> <a href="#"> <i class="fa fa-github" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+                <section>
+                    <div class="container div_main"  id="div-sobre"> 
+                        <div class="avatar_social ">
+                            <img src="/images/jao-perfil.png" class="avatar_imagem  anime" alt="user avatar">
+                            <ul class="ul-social-media  anime">
+                                <li> <a href="https://github.com/jaonunes" target="_blank"> <i class="fa fa-github" aria-hidden="true"></i></a></li>
+                                <li><a href="https://twitter.com/johnunes_" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="mailto:jp6nunes@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
                             </ul>
                         </div>
-                        <div class="anime">
-                            <h2>Sobre</h2>
-                            <p>
-                                Mussum Ipsum, cacilds vidis litro abertis. Viva Forevis aptent taciti sociosqu ad litora torquent. 
-                                A ordem dos tratores não altera o pão duris. Manduma pindureta quium dia nois paga. 
-                                Posuere libero varius. Nullam a nisl ut ante blandit hendrerit. Aenean sit amet nisi.
+                        <div>
+                            <h2 class="anime">Sobre</h2>
+                            <p class="anime">
+                                Sou estudante de Computação - Licenciatura na Universidade Federal da Bahia  (Sim, esse curso existe). Caí de paraquedas no curso e estou no 7!(7 fatorial) semestre.
+                                Iniciei minhas primeiras linhas de código durante o curso (2017). Sempre tive interesse em criar mas nunca tive oportunidade de descobrir como criar, achava que era impossível.
+                                <br>
+                                Hoje sou estagiário na Superintendência de Tecnologia da Informação - STI UFBA, atuando com atendimento ao usuário e desenvolvimento WEB utilizando HTML, CSS, JavaScript, ASP e báscio de SQL Server para um sistema de gerência de eventos acadêmicos - GERE. 
+                                Estou em constante aprendizado, sinto que nunca saberei o suficiente e sempre estarei buscando aprender.
                             </p>
                         </div>
                     </div>
                 </section>
-                <section class="anime">
+                <section>
                     <div class="div_main container" id="div-experiencias">
-                        <h2>Experiências</h2>
-   
-                            <p>
-                                Mussum Ipsum, cacilds vidis litro abertis. 
-                                Admodum accumsan disputationi eu sit. 
-                                Vide electram sadipscing et per. A ordem dos tratores não altera o pão duris. 
-                                Si num tem leite então bota uma pinga aí cumpadi! Casamentiss faiz malandris se pirulitá.
-                            </p>
-
+                        <h2 class="anime">Experiências</h2>
+                        <ul class="timeline">
+                            <li class="anime">
+                              <div class="timeline-badge"><i class="fa fa-code"></i></div>
+                              <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                  <h4 class="timeline-title">STI-UFBA</h4>
+                                  <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> Outubro/2018 - Atual</small></p>
+                                </div>
+                                <div class="timeline-body">
+                                  <p>Atendimento ao usuário, ministração de treinamento de manuseio do sistema, programação básica com SQL Server, criação de funcionalidades com HTML, CSS, Bootstrap e JS, teste de novas funcionalidades no sistema, manutenção corretiva, preventiva e evolutiva do sistema.
+                                  </p>
+                                </div>
+                              </div>
+                            </li>
+                            <li class="timeline-inverted anime">
+                              <div class="timeline-badge warning"><i class="glyphicon glyphicon-console "></i></div>
+                              <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                  <h4 class="timeline-title">Instrutor do Curso de Iniciação à Programação</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> Semestre 2018.2</small></p>
+                                  <p>Ministração do Curso utilizando a linguagem C/C++ para iniciantes (pessoas com pouco ou nenhum conhecimento) em progração. Duração de 80h</p>
+                                  
+                                </div>
+                              </div>
+                            </li>
+                            <li class="anime">
+                              <div class="timeline-badge danger"><i class="fa fa-users" aria-hidden="true"></i></div>
+                              <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                  <h4 class="timeline-title">Companhia de Processamento de Dados do Estado da Bahia- PRODEB</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 05/2017 - 06/2018</small></p>
+                                    <p>Criação e alimentação de planilhas eletrônicas, controle de processos de compras e atendimento de solicitações dos clientes internos e extranos</p>
+                                </div>
+                              </div>
+                            </li>
+                            
+                        </ul>
+                        
                     </div>
                 </section>
             </main>
